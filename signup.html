@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" accept-charset="utf-8" name="person_info" method="get">
+        <fieldset style="width:150">
+            <legend>회원 가입</legend>
+            이름 <input type="text" name="name" required/><br><br>
+            생년월일 <input type="text" name="birth" pattern="\d{6}\" title="990705 형식으로 입력해주세요"/><br><br>
+            이메일 <input type="email" name="email"/><br><br>
+            비밀번호 <input type="password" name="password"/><br><br>
+            전화번호 <input type="tel" name="tel"/><br><br>
+            <input type="submit" value="Sign up">
+        </fieldset>
+    </form>
+</body>
+</html>
